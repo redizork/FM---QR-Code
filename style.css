@@ -43,6 +43,7 @@ p {
   border-radius: 15px;
   background-color: #ffffff;
   padding: 1.5rem;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
 }
 
 .img-box img {
@@ -65,4 +66,5 @@ p {
   font-size: 1.5rem;
   color: #7b879d;
 }
+
 /* Card Style End */
