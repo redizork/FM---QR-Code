@@ -67,4 +67,9 @@ p {
   color: #7b879d;
 }
 
+.card:hover {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  translate: 0 -5px;
+}
 /* Card Style End */
