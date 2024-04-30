@@ -1,0 +1,68 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/* General Style Start*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: #d6e2f0;
+  font-family: "Outfit", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+p {
+  text-align: center;
+}
+/* General Style End */
+
+/* Card Style Start */
+.card {
+  max-width: 320px;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 1.5rem;
+}
+
+.img-box img {
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.text-box-heading {
+  font-size: 1.4rem;
+}
+
+.text-box-text {
+  font-size: 1.5rem;
+  color: #7b879d;
+}
+/* Card Style End */
